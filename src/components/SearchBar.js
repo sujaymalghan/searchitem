@@ -13,7 +13,7 @@ function SearchBar({onSubmit}){
 };
 
     return <div >
-        <form style={ {marginLeft:470, marginTop:50, width:600 ,marginTop:90}}  onSubmit={handleFormSubmit}>
+        <form style={ {marginLeft:470, marginTop:90, width:600 }}  onSubmit={handleFormSubmit}>
             <label className="lead">Enter Anything to Search</label>
         <input placeholder="Type Enter After search"  style={ {marginTop:10}} className="form-control" value={term} onChange={handlechange}/>
         </form>
